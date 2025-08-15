@@ -1,5 +1,6 @@
 # Loan-Recovery-System
 A machine learning project that analyzes and predicts loan recovery strategies using borrower and loan data. The system segments borrowers into risk groups, predicts the likelihood of default, and recommends tailored recovery actions. This project is implemented in a Jupyter Notebook using Python and popular data science libraries.
+
 📌 Project Overview
 The core pipeline of this project includes:
 
@@ -27,6 +28,7 @@ A rule-based system recommends a recovery strategy based on predicted risk score
 Automated reminders
 Settlement offers
 Legal notices
+
 ✨ Key Features
 Exploratory Data Analysis (EDA):
 Comprehensive overview of dataset structure and contents.
@@ -74,6 +76,7 @@ Strategy Mapping: Rule-based thresholds
 Risk > 0.75 → Immediate legal notices & aggressive recovery attempts
 0.50 ≤ Risk ≤ 0.75 → Settlement offers & repayment plans
 Risk < 0.50 → Automated reminders & monitoring
+
 📌 Conclusion
 This project demonstrates how machine learning can:
 
